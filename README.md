@@ -1,2 +1,2 @@
 # my_project
-A simple HTML and CSS webpage about healthy eating habits
+A simple HTML and CSS webpage about healthy eating habits and tips

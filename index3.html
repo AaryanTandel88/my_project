@@ -15,6 +15,14 @@
         html,body{
             width: 100%;
             height: 100%;
+
+
+        body{
+             background: linear-gradient(#fffffc, #faef76);
+
+
+        }    
+
         }
         .main_box{
             background-color: rgb(255, 255, 255);
@@ -22,10 +30,12 @@
             height: 90%;
             border-radius: 40px;
             background-image: url(image.png);
-            background-image:;
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
+            
+
+        
             
         }
 
@@ -43,12 +53,11 @@
             font-weight: bolder;
             font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
             font-size: xx-large;
-            /* background-color: rgb(247, 145, 67) ; */
-            background: linear-gradient(#f09956, #f95d4c);
-            
-            
-            
-            border-radius: 40px;
+
+            background: linear-gradient(#fab784, #fd3f2a);
+
+            border-top-right-radius: 40px;
+            border-top-left-radius: 40px;
             border: 2px solid rgb(83, 77, 66);
             text-shadow: 18px 18px 25px rgba(0, 0, 0, 0.2);
             
@@ -65,12 +74,12 @@
         #id2{
             margin-top: 60px;
             margin-left: 60px;
-            color: rgb(253, 136, 48);
-            font-size: large;
+            color: rgb(250, 134, 45);
+            font-size: larger;
             font-weight: bolder;
-            text-align: center;
 
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            text-shadow: 2px 4px 2px rgba(0, 0, 0, 0.17);
             font-family: 'Georgia', serif;
             padding: 20px;
         
@@ -81,11 +90,14 @@
         #id3{
             margin-left: 60px;
             color: rgb(0, 0, 11);
-            font-size:large;
+            font-size:larger;
+            font-weight: bold;
             margin-top: 10px;
-            font-family:'Times New Roman', Times, serif;
-            letter-spacing: 0.5px;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            letter-spacing: -0.3px;
             text-align: center;
+            
+
            
 
         
@@ -116,7 +128,6 @@
 
         #id4 h2{
             padding: 0px;
-            color: white;
             margin: 0;
             margin-top: 10px;
             font-size: 27px;
@@ -139,7 +150,6 @@
         #id5 h2{
             padding: 0px;
             text-align: center;
-            color: white;
             margin: 0;
             margin-top: 10px;
             font-size: 27px;
@@ -164,7 +174,6 @@
         #id6 h2{
             padding: 0px;
             text-align: center;
-            color: white;
             margin: 0;
             margin-top: 10px;
             font-size: 27px;
@@ -189,7 +198,6 @@
         #id7 h2{
             padding: 0px;
             text-align: center;
-            color: white;
             margin: 0;
             margin-top: 10px;
             font-size: 27px;
@@ -203,27 +211,63 @@
             transition: all 0.3s ease;
             text-shadow: 18px 18px 25px rgba(0, 0, 0, 0.1);
             font-weight: bolder;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+            
+            
         
         }   
         .class1:hover{
+            border-color: rgb(252, 222, 87);
             transform: scale(1.1);
             cursor: pointer;
-            box-shadow: 0 20px 50px rgb(9, 9, 9);
+            box-shadow: 0 20px 50px rgb(250, 189, 4);
+           
+            
+
         }
 
         .class1:hover .emoji {
-            transform: rotate(5deg) scale(1.5);
             transition: all 0.3s ease;
+            transform: rotate(8deg) scale(1.5);
+           
         }
 
         .class1:hover h2 {
-            transform: translateY(5px);
+            font-size: larger;
+            transform: translateY(9px);
             transition: all 0.3s ease;
+            font-weight: 900;  
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); 
+            
+            
            
         }
+
+        .class1 h3 {
+            text-align: center;
+            margin-top: 35px;
+            color: rgb(255, 255, 255);
+            padding: 5px; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4)
+        }
+
+        .class1 h2{
+                    letter-spacing: -0.9px;
+                    color: #ffffff;
+
+        }
+
+        #id8{
+            margin-top: 90px;
+            /* text-align: center; */
+            margin-left: 570px;
+            font-size: small;
+        }
+
     </style>
 </head>
-<body style="background-color: rgb(195, 247, 244);">
+<body>
+  
     <div class="main_box">
 
        <div id="id1">
@@ -244,7 +288,7 @@
            <div class="class1" id="id4">
                 <div class="emoji">🥗</div>
                 <h2>Nutrition Basics</h2>
-                <h3 style="text-align: center; margin-top: 35px; color: rgb(255, 255, 255); padding: 10px;">Learn about essential nutrients and balanced diets</h3>
+                <h3>Learn about essential nutrients and balanced diets</h3>
 
            </div>
            </a>
@@ -253,7 +297,7 @@
            <div class="class1" id="id5">
                 <div class="emoji">🥦</div>
                 <h2>Super Foods</h2>
-                <h3 style="text-align: center; margin-top: 35px; color: rgb(255, 255, 255); padding: 10px;">Discover nutrient-packed foods to boost your health</h3>
+                <h3>Discover nutrient-packed foods to boost your health</h3>
 
            </div>
            </a>
@@ -264,24 +308,22 @@
             <div class="class1" id="id6">
                 <div class="emoji">🧘</div>
                 <h2>Mindful Eating</h2>
-                <h3 style="text-align: center; margin-top: 35px; color: rgb(255, 255, 255); padding: 10px;">Build a healthier relationship with food</h3>
-
+                <h3>Build a healthier relationship with food</h3>
            </div>
            </a>
 
 
     
-           <div class="class1" id="id7">
+           <a href="meal_planning.html" style="text-decoration: none;">
+            <div class="class1" id="id7">
+                <div class="emoji">📅</div>
+                <h2>Meal Planning</h2>
+                <h3>Tips for planning healthy, delicious meals</h3>
 
-             <a href="meal_planning.html" style="text-decoration: none;">
-            <div class="emoji">📅</div>
-            <h2>Meal Planning</h2>
-            <h3 style="text-align: center; margin-top: 35px; color: rgb(255, 255, 255); padding: 10px;">Tips for planning healthy, delicious meals</h3>
-
-           </div>
+            </div>
            </a>
 
-       <!-- </div> -->
+       <div id="id8">Healthy Eating Tips | By Aaryan Tandel</div>
 
     </div>
 </body>
